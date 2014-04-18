@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0FF45418FF9AA7000F791D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FF45318FF9AA7000F791D /* Foundation.framework */; };
+		EA0FF45618FF9AA7000F791D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FF45518FF9AA7000F791D /* CoreGraphics.framework */; };
+		EA0FF45818FF9AA7000F791D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FF45718FF9AA7000F791D /* UIKit.framework */; };
+		EA0FF45E18FF9AA7000F791D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF45C18FF9AA7000F791D /* InfoPlist.strings */; };
+		EA0FF46018FF9AA7000F791D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF45F18FF9AA7000F791D /* main.m */; };
+		EA0FF46418FF9AA7000F791D /* SLHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF46318FF9AA7000F791D /* SLHAppDelegate.m */; };
+		EA0FF46618FF9AA7000F791D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF46518FF9AA7000F791D /* Images.xcassets */; };
+		EA0FF46D18FF9AA7000F791D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FF46C18FF9AA7000F791D /* XCTest.framework */; };
+		EA0FF46E18FF9AA7000F791D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FF45318FF9AA7000F791D /* Foundation.framework */; };
+		EA0FF46F18FF9AA7000F791D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0FF45718FF9AA7000F791D /* UIKit.framework */; };
+		EA0FF47718FF9AA7000F791D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF47518FF9AA7000F791D /* InfoPlist.strings */; };
+		EA0FF47918FF9AA7000F791D /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF47818FF9AA7000F791D /* ______Tests.m */; };
+		EA0FF48418FF9ABD000F791D /* SLHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF48318FF9ABD000F791D /* SLHRootViewController.m */; };
+		EA0FF48B18FF9BAB000F791D /* SLHTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF48A18FF9BAB000F791D /* SLHTestView.m */; };
+		EA0FF48F18FFB1BB000F791D /* SLHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF48E18FFB1BB000F791D /* SLHSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0FF47018FF9AA7000F791D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0FF44818FF9AA6000F791D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0FF44F18FF9AA7000F791D;
+			remoteInfo = "缩放动画效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0FF45018FF9AA7000F791D /* 缩放动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "缩放动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0FF45318FF9AA7000F791D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA0FF45518FF9AA7000F791D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA0FF45718FF9AA7000F791D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA0FF45B18FF9AA7000F791D /* 缩放动画效果-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "缩放动画效果-Info.plist"; sourceTree = "<group>"; };
+		EA0FF45D18FF9AA7000F791D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0FF45F18FF9AA7000F791D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA0FF46118FF9AA7000F791D /* 缩放动画效果-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "缩放动画效果-Prefix.pch"; sourceTree = "<group>"; };
+		EA0FF46218FF9AA7000F791D /* SLHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLHAppDelegate.h; sourceTree = "<group>"; };
+		EA0FF46318FF9AA7000F791D /* SLHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLHAppDelegate.m; sourceTree = "<group>"; };
+		EA0FF46518FF9AA7000F791D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA0FF46B18FF9AA7000F791D /* 缩放动画效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "缩放动画效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0FF46C18FF9AA7000F791D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA0FF47418FF9AA7000F791D /* 缩放动画效果Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "缩放动画效果Tests-Info.plist"; sourceTree = "<group>"; };
+		EA0FF47618FF9AA7000F791D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA0FF47818FF9AA7000F791D /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		EA0FF48218FF9ABD000F791D /* SLHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLHRootViewController.h; sourceTree = "<group>"; };
+		EA0FF48318FF9ABD000F791D /* SLHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHRootViewController.m; sourceTree = "<group>"; };
+		EA0FF48918FF9BAB000F791D /* SLHTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLHTestView.h; sourceTree = "<group>"; };
+		EA0FF48A18FF9BAB000F791D /* SLHTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHTestView.m; sourceTree = "<group>"; };
+		EA0FF48D18FFB1BB000F791D /* SLHSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLHSecondViewController.h; sourceTree = "<group>"; };
+		EA0FF48E18FFB1BB000F791D /* SLHSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0FF44D18FF9AA7000F791D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0FF45618FF9AA7000F791D /* CoreGraphics.framework in Frameworks */,
+				EA0FF45818FF9AA7000F791D /* UIKit.framework in Frameworks */,
+				EA0FF45418FF9AA7000F791D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0FF46818FF9AA7000F791D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0FF46D18FF9AA7000F791D /* XCTest.framework in Frameworks */,
+				EA0FF46F18FF9AA7000F791D /* UIKit.framework in Frameworks */,
+				EA0FF46E18FF9AA7000F791D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0FF44718FF9AA6000F791D = {
+			isa = PBXGroup;
+			children = (
+				EA0FF45918FF9AA7000F791D /* 缩放动画效果 */,
+				EA0FF47218FF9AA7000F791D /* 缩放动画效果Tests */,
+				EA0FF45218FF9AA7000F791D /* Frameworks */,
+				EA0FF45118FF9AA7000F791D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0FF45118FF9AA7000F791D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF45018FF9AA7000F791D /* 缩放动画效果.app */,
+				EA0FF46B18FF9AA7000F791D /* 缩放动画效果Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0FF45218FF9AA7000F791D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF45318FF9AA7000F791D /* Foundation.framework */,
+				EA0FF45518FF9AA7000F791D /* CoreGraphics.framework */,
+				EA0FF45718FF9AA7000F791D /* UIKit.framework */,
+				EA0FF46C18FF9AA7000F791D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA0FF45918FF9AA7000F791D /* 缩放动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF46218FF9AA7000F791D /* SLHAppDelegate.h */,
+				EA0FF46318FF9AA7000F791D /* SLHAppDelegate.m */,
+				EA0FF48218FF9ABD000F791D /* SLHRootViewController.h */,
+				EA0FF48318FF9ABD000F791D /* SLHRootViewController.m */,
+				EA0FF48C18FFB1A8000F791D /* ViewController */,
+				EA0FF48518FF9B26000F791D /* view */,
+				EA0FF46518FF9AA7000F791D /* Images.xcassets */,
+				EA0FF45A18FF9AA7000F791D /* Supporting Files */,
+			);
+			path = "缩放动画效果";
+			sourceTree = "<group>";
+		};
+		EA0FF45A18FF9AA7000F791D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF45B18FF9AA7000F791D /* 缩放动画效果-Info.plist */,
+				EA0FF45C18FF9AA7000F791D /* InfoPlist.strings */,
+				EA0FF45F18FF9AA7000F791D /* main.m */,
+				EA0FF46118FF9AA7000F791D /* 缩放动画效果-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0FF47218FF9AA7000F791D /* 缩放动画效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF47818FF9AA7000F791D /* ______Tests.m */,
+				EA0FF47318FF9AA7000F791D /* Supporting Files */,
+			);
+			path = "缩放动画效果Tests";
+			sourceTree = "<group>";
+		};
+		EA0FF47318FF9AA7000F791D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF47418FF9AA7000F791D /* 缩放动画效果Tests-Info.plist */,
+				EA0FF47518FF9AA7000F791D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA0FF48518FF9B26000F791D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF48918FF9BAB000F791D /* SLHTestView.h */,
+				EA0FF48A18FF9BAB000F791D /* SLHTestView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		EA0FF48C18FFB1A8000F791D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FF48D18FFB1BB000F791D /* SLHSecondViewController.h */,
+				EA0FF48E18FFB1BB000F791D /* SLHSecondViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0FF44F18FF9AA7000F791D /* 缩放动画效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0FF47C18FF9AA7000F791D /* Build configuration list for PBXNativeTarget "缩放动画效果" */;
+			buildPhases = (
+				EA0FF44C18FF9AA7000F791D /* Sources */,
+				EA0FF44D18FF9AA7000F791D /* Frameworks */,
+				EA0FF44E18FF9AA7000F791D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "缩放动画效果";
+			productName = "缩放动画效果";
+			productReference = EA0FF45018FF9AA7000F791D /* 缩放动画效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0FF46A18FF9AA7000F791D /* 缩放动画效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0FF47F18FF9AA7000F791D /* Build configuration list for PBXNativeTarget "缩放动画效果Tests" */;
+			buildPhases = (
+				EA0FF46718FF9AA7000F791D /* Sources */,
+				EA0FF46818FF9AA7000F791D /* Frameworks */,
+				EA0FF46918FF9AA7000F791D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0FF47118FF9AA7000F791D /* PBXTargetDependency */,
+			);
+			name = "缩放动画效果Tests";
+			productName = "缩放动画效果Tests";
+			productReference = EA0FF46B18FF9AA7000F791D /* 缩放动画效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0FF44818FF9AA6000F791D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SLH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "上海思墨信息科技有限公司";
+				TargetAttributes = {
+					EA0FF46A18FF9AA7000F791D = {
+						TestTargetID = EA0FF44F18FF9AA7000F791D;
+					};
+				};
+			};
+			buildConfigurationList = EA0FF44B18FF9AA6000F791D /* Build configuration list for PBXProject "缩放动画效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0FF44718FF9AA6000F791D;
+			productRefGroup = EA0FF45118FF9AA7000F791D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0FF44F18FF9AA7000F791D /* 缩放动画效果 */,
+				EA0FF46A18FF9AA7000F791D /* 缩放动画效果Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0FF44E18FF9AA7000F791D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0FF45E18FF9AA7000F791D /* InfoPlist.strings in Resources */,
+				EA0FF46618FF9AA7000F791D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0FF46918FF9AA7000F791D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0FF47718FF9AA7000F791D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0FF44C18FF9AA7000F791D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0FF46418FF9AA7000F791D /* SLHAppDelegate.m in Sources */,
+				EA0FF48418FF9ABD000F791D /* SLHRootViewController.m in Sources */,
+				EA0FF48B18FF9BAB000F791D /* SLHTestView.m in Sources */,
+				EA0FF46018FF9AA7000F791D /* main.m in Sources */,
+				EA0FF48F18FFB1BB000F791D /* SLHSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0FF46718FF9AA7000F791D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0FF47918FF9AA7000F791D /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0FF47118FF9AA7000F791D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0FF44F18FF9AA7000F791D /* 缩放动画效果 */;
+			targetProxy = EA0FF47018FF9AA7000F791D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0FF45C18FF9AA7000F791D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0FF45D18FF9AA7000F791D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA0FF47518FF9AA7000F791D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0FF47618FF9AA7000F791D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0FF47A18FF9AA7000F791D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA0FF47B18FF9AA7000F791D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0FF47D18FF9AA7000F791D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "缩放动画效果/缩放动画效果-Prefix.pch";
+				INFOPLIST_FILE = "缩放动画效果/缩放动画效果-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA0FF47E18FF9AA7000F791D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "缩放动画效果/缩放动画效果-Prefix.pch";
+				INFOPLIST_FILE = "缩放动画效果/缩放动画效果-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA0FF48018FF9AA7000F791D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/缩放动画效果.app/缩放动画效果";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "缩放动画效果/缩放动画效果-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "缩放动画效果Tests/缩放动画效果Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA0FF48118FF9AA7000F791D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/缩放动画效果.app/缩放动画效果";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "缩放动画效果/缩放动画效果-Prefix.pch";
+				INFOPLIST_FILE = "缩放动画效果Tests/缩放动画效果Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0FF44B18FF9AA6000F791D /* Build configuration list for PBXProject "缩放动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0FF47A18FF9AA7000F791D /* Debug */,
+				EA0FF47B18FF9AA7000F791D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0FF47C18FF9AA7000F791D /* Build configuration list for PBXNativeTarget "缩放动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0FF47D18FF9AA7000F791D /* Debug */,
+				EA0FF47E18FF9AA7000F791D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0FF47F18FF9AA7000F791D /* Build configuration list for PBXNativeTarget "缩放动画效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0FF48018FF9AA7000F791D /* Debug */,
+				EA0FF48118FF9AA7000F791D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0FF44818FF9AA6000F791D /* Project object */;
+}
